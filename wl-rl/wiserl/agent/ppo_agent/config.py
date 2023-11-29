@@ -1,0 +1,12 @@
+ACTOR_LR = 0.001           # actor learning rate
+CRITIC_LR = 0.01           # critic learning rate
+EPSILON = 0.9       # epsilon used for epsilon greedy approach
+GAMMA = 0.98         # discount factor
+LAMDA = 0.95       # GAE parameter
+PPO_EPS = 0.2     # Parameters for truncation range
+ACTION_FIRE = 64
+MAX_EPOCH = 4000
+EPOCHS = 10
+USE_LE_DECAY = True
+DECAY_EPOCH = 400
+DECAY_RATE = 0.5
