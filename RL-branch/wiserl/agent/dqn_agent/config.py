@@ -1,0 +1,15 @@
+BATCH_SIZE = 32     # batch size of sampling process from buffer
+LR = 0.01           # learning rate
+EPSILON = 0.9       # epsilon used for epsilon greedy approach
+GAMMA = 0.9         # discount factor
+ACTION_FIRE = 64
+MAX_EPOCH = 4000
+TARGET_NETWORK_REPLACE_FREQ = 20       # How frequently target netowrk updates
+MEMORY_CAPACITY = 8000                  # The capacity of experience replay buffer
+memory_size = 10000
+prio_a = 0.6
+prio_e = 0.001
+epsilon  = 0.9
+lr = 1e-4
+batch_size = 32
+print_interval = 100
